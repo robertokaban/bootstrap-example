@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Institut Teknologi dan Bisnis Indonesia</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="bootstrap/css/dataTables.bootstrap.min.css" rel="stylesheet">
+		<link href="bootstrap/css/styles.css" rel="stylesheet">
+		<style>
+      body {
+        padding-top: 60px; 
+      }
+		</style>
+  </head>
+  <body>
+	<!-- Awal script Navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top" id="scrollspy">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle Nav</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Institut Teknologi dan Bisnis Indonesia</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+							<a href="index.html"><span class="glyphicon glyphicon-home"></span> Home <span class="sr-only">(current)</span></a>
+						</li>
+            <li>
+							<a href="about.html"><span class="glyphicon glyphicon-user"></span> About</a>
+						</li>
+            <li class="active">
+							<a href="contact.html"><span class="glyphicon glyphicon-info-sign"></span> Contact Us</a>
+						</li>
+            <li>
+							<a href="mahasiswa.html"><span class="glyphicon glyphicon-hand-down"></span> Mahasiswa</a>
+						</li>
+						<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-tasks"></span> Jurusan <span class="caret"></span>
+						</a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Teknik Informatika</a></li>
+								<li><a href="#">Manajemen Informatika</a></li>
+								<li><a href="#">Teknik Elektro</a></li>
+								<li><a href="#">Akuntansi</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="galeri.html"><span class="glyphicon glyphicon-picture"></span> Galeri</a>
+						</li>
+            <li>
+							<a href="login.html"><span class="glyphicon glyphicon-lock"></span> Login</a>
+						</li>
+          </ul>
+        </div>
+      </div>
+    </nav><!-- Akhir script Navbar -->
+		
+		<!-- Awal Page -->
+		<div class="container">
+		<!-- Awal baris -->
+		<div class="row">
+			<div class="col-md-8"><!-- Awal Kolom Pertama -->
+			<div class="panel panel-default">
+				<div class="panel-body">
+				<h2 style="text-muted"><span class="glyphicon glyphicon-list"></span> Contact</h2>
+					<form action="#" method="post">
+						<table class="table table-hover">
+							<tr>
+								<td>Nama Lengkap
+								<input type="text" name="nama" class="form-control input-md" placeholder="Isikan nama anda dengan lengkap" required>
+								</td>
+							</tr>
+							<tr>
+								<td>Alamat Email
+								<input type="email" name="email" class="form-control input-md" placeholder="Isikan alamat email yang masih aktif" required>
+								</td>
+							</tr>
+							<tr>
+								<td>Pesan
+								<textarea name="nama" class="form-control input-md" required> </textarea>
+								</td>
+							</tr>
+							<tr>
+								<td>
+								<input type="submit" value="Kirim" class="btn btn-lg btn-info"> <input type="reset" value="Batal" class="btn btn-lg btn-warning">
+								</td>
+							</tr>
+						</table>
+					</form>
+				</div>
+      </div>
+			</div><!-- Akhir Kolom Pertama -->
+			
+			<div class="col-md-4"><!-- Awal kolom kedua -->
+			<div class="panel panel-default">
+				<div class="panel-body">
+				<h2 style="text-muted"><span class="glyphicon glyphicon-tasks"></span>Info Lainnya</h2>
+				<h4>Seminar Nasional</h4>
+				<img src="images/chris8.jpg" class="img-thumbnail img-responsive">
+				<p>Seminar Nasional tentang pemanfaatan sosial media sebagai sarana pemasaran produk yang disampaikan oleh <b>Chris Benoit</b> pakar sosial media terkemuka akan dilakasanakan pada 3 Maret 2017. Untuk Informasi biaya dan tempat pelaksaanaan silakan klik link dibawa<br/><a class="btn btn-danger btn-xs" href="ruang_kelas.html"role="button">Info Seminar</a></p>
+				</div>
+      </div>
+			</div><!-- Akhir Kolom Kedua -->
+		</div><!-- Akhir Baris -->
+		</div><!--  Akhir Page -->
+		
+		<!-- FOOTER -->
+		<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-4">
+			<h3><span class="glyphicon glyphicon-bullhorn"></span> Berita Terbaru</h3>
+				<ul class="list-group">
+					<li class="list-group-item"><a href="#">Beasiswa melanjut kuliah luar negeri</a></li>
+					<li class="list-group-item"><a href="#">Tahun 2018 Mahasiswa harus publikasi karya ilmiah</a></li>
+					<li class="list-group-item"><a href="#">Menristekdikti akan rutin engunjungi kampus swasta setiap minggu</a></li>
+				</ul>
+				
+			</div>
+			<div class="col-md-4">
+			<h3><span class="glyphicon glyphicon-info-sign"></span> Informasi Akademik</h3>
+				<ul class="list-group">
+					<li class="list-group-item"><a href="#">Ujian Akhir Semester(UAS) 2018 dimulai bulan Maret</a></li>
+					<li class="list-group-item"><a href="#">Mahasiswa diwajibkan memakai jas Almamater setiap hari senin</a></li>
+					<li class="list-group-item"><a href="#">Upacara hari pendidikan Nasional di lapangan kampus</a></li>
+				</ul>
+				
+			</div>
+			<div class="col-md-4">
+			<h3><span class="glyphicon glyphicon-link"></span> Link Terkait</h3>
+				<ul class="list-group">
+					<li class="list-group-item"><a href="#">Penerimaan Mahasiswa Baru</a></li>
+					<li class="list-group-item"><a href="#">Jurnal Ilmiah</a></li>
+					<li class="list-group-item"><a href="#">Sistem Informasi Akademik</a></li>
+					<li class="list-group-item"><a href="#">Sistem Informasi Almuni</a></li>
+				</ul>
+				
+			</div>
+		<div class="row">
+			<div class="col-md-12">
+				<center>Copyright &copy 2018 Website Institut Teknologi dan Bisnis Indonesia, design with <span class="glyphicon glyphicon-heart"></span> by Roberto Kaban<br/>
+				<a href="#">Home </a> | <a href="#">About Us </a> | <a href="#">Contact Us </a> | <a href="#">Login </a><br/><br/>
+				<label class="label label-danger">PERHATIAN:</label>Semua informasi di halaman ini memiliki hak cipta, anda tidak diperkenankan untuk menyebarluaskan tanpa seijin pengelola website
+				</center>
+			</div>
+			</div>
+		</div><!-- Akhir FOOTER -->
+		
+	<script src="bootstrap/js/jquery.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="bootstrap/js/dataTables.bootstrap.min.js"></script>
+	<script src="bootstrap/js/jquery.dataTables.js"></script>
+	<script src="bootstrap/js/scripts.js"></script>
+	</body>
+</html>
